@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    padding: 10px 16px;
+    color: rgba(107, 107, 107, 0.993);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .headernav{
+      text-align: center;
+  }
+
+  .headernav li{
+      display: inline-block;
+      list-style: none;
+      padding-left: .5rem;
+      padding-right: .5rem;
+  }
+
+  .headernav li:hover{
+      color: black;
+      cursor: pointer;
+  }
+
+  .list2{
+      display: inline-block;
+    position: absolute;
+    list-style: none;
+  }
