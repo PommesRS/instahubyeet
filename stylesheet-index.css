@@ -11,16 +11,17 @@ body {
     color: rgba(107, 107, 107, 0.993);
     background-color:white;
     border-bottom: 1px solid rgba(0,0,0,.0975);
+    width: 99.50%;
   }
   
   .content {
-    padding: px;
+    padding: 16px;
   }
   
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 99.50%;
   }
   
   .sticky + .content {
@@ -151,7 +152,21 @@ body {
   }
 
   @media (min-width: 25px) and (max-width: 1372px) {
+
+    .header{
+      width: 100%;
+    }
+
+    .content {
+      padding: 10px;
+    }
+
+    .sticky{
+      width: 98.6%;
+    }
+
     .maincontent{
+        text-align: center;
         background-color: white;
         margin-right: 20px;
         margin-left: 20px;
@@ -182,7 +197,7 @@ body {
   display: inline-block;
   list-style: none;
   padding: 30px;
-  width: 350px;
+  width: 330px;
   font-weight: lighter;
   color:#212529;
 }
