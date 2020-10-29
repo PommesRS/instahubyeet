@@ -2,8 +2,164 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheet-index.css">
+<!--<link rel="stylesheet" href="stylesheet-index.css">-->
 <title>Instahub</title>
+<style>
+
+@font-face { font-family: Satisfy; src: url('Satisfy-Regular.ttf'); } 
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f8f9fa;
+  }
+  
+  .header {
+    padding: 10px 16px;
+    color: rgba(107, 107, 107, 0.993);
+    background-color:white;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .headernav{
+      text-align: center;
+  }
+
+  .headernav li{
+      display: inline-block;
+      list-style: none;
+      padding-left: .5rem;
+      padding-right: .5rem;
+      font-size: 1.25rem;
+  }
+
+  .headernav li:hover{
+      color: black;
+      cursor: pointer;
+  }
+
+  .logo{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 15px;
+  }
+
+  .topleftlogo{
+    font-family: Satisfy;
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .topleftlogopic{
+    float: left;
+  }
+
+  .docs{
+     float: right;
+  }
+
+  .maincontentfull{
+    
+  }
+
+  .maincontent{
+    background-color: white;
+    padding: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .mainheading{
+    font-family: Satisfy;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.25rem;
+    color: #212529;
+  }
+
+  .info{
+    text-align: center;
+    color: rgba(107, 107, 107, 0.993);
+    font-weight: 500;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .highlight{
+    color: rgb(52, 116, 212);
+    cursor: pointer;
+  }
+
+  .highlight:hover{
+    color:  rgb(97, 147, 221);
+  }
+
+  .infbtn li{
+    display: inline-block;
+    list-style: none;
+  }
+
+  .infbtn li a{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .btnsecondary{
+    color: white;
+    border-radius: 5px;
+    background-color: #6c757d;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+
+  .btnprimary{
+    color: white;
+    border-radius: 5px;
+    background-color: #54a4e6;
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+
+  .btnprimary:hover{
+    background-color: #2870ac;
+  }
+  
+  .btnsecondary:hover{
+    background-color: #52595f;
+  }
+
+
+
+
+  .infbtn{
+    text-align: center;
+    
+  }
+
+
+</style>
 </head>
 <body>
 <div class="header" id="myHeader">
