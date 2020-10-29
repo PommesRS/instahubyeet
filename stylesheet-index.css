@@ -166,3 +166,22 @@ body {
     }
 
 }
+
+.stuffunten{
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
+
+.stuffunten li{
+  border-radius: 5pt;
+  border-color: gray;
+  border: solid;
+  border-width: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  margin-top: 80px
+}
