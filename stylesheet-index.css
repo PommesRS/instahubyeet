@@ -36,7 +36,9 @@ body {
       list-style: none;
       padding-left: .5rem;
       padding-right: .5rem;
-      font-size: 1.25rem;
+      font-size: .75rem;
+      font-weight: 400;
+      line-height: 1.6;
   }
 
   .headernav li:hover{
@@ -53,7 +55,7 @@ body {
   .topleftlogo{
     font-family: Satisfy;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: black;
   }
 
@@ -85,6 +87,7 @@ body {
     text-align: center;
     color: rgba(107, 107, 107, 0.993);
     font-weight: 500;
+    font-size: 1.125rem;
   }
 
   a{
@@ -121,6 +124,7 @@ body {
     background-color: #6c757d;
     transition: background-color 0.15s;
     cursor: pointer;
+    font-size: .9rem;
   }
 
   .btnprimary{
@@ -129,6 +133,8 @@ body {
     background-color: #54a4e6;
     transition: background-color 0.15s;
     cursor: pointer;
+    font-size: .9rem;
+    margin-top: 1rem;
   }
 
   .btnprimary:hover{
@@ -169,19 +175,26 @@ body {
 
 .stuffunten{
   text-align: center;
-  display: inline-block;
-  list-style: none;
 }
 
 .stuffunten li{
-  border-radius: 5pt;
-  border-color: gray;
-  border: solid;
-  border-width: 1px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 150px;
-  margin-top: 80px
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  padding: 30px;
+  width: 350px;
+  font-weight: lighter;
+  color:#212529;
+}
+
+.footerlist {
+  text-align: center;
+  visibility: visible;
+}
+
+.footerlist li{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  color: #6c757d;
 }
