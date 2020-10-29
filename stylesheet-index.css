@@ -65,9 +65,6 @@ body {
      float: right;
   }
 
-  .maincontentfull{
-    
-  }
 
   .maincontent{
     background-color: white;
@@ -143,9 +140,29 @@ body {
   }
 
 
-
-
   .infbtn{
     text-align: center;
-    
   }
+
+  @media (min-width: 25px) and (max-width: 1372px) {
+    .maincontent{
+        background-color: white;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .btnsecondary{
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    
+  
+    .btnprimary{
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+}
